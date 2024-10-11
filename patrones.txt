@@ -1,0 +1,32 @@
+# Contraseñas
+(?i)password\s*=\s*[\'"].+[\'"]
+(?i)contraseña\s*=\s*[\'"].+[\'"]
+(?i)pass\s*=\s*[\'"].+[\'"]
+(?i)passwd\s*=\s*[\'"].+[\'"]
+(?i)clave\s*=\s*[\'"].+[\'"]
+(?i)clave\_secreta\s*=\s*[\'"].+[\'"]
+
+# Tokens
+(?i)token\s*=\s*[\'"].+[\'"]
+(?i)Bearer\s+[a-zA-Z0-9]+
+(?i)access\s*token\s*=\s*[\'"].+[\'"]
+(?i)refresh\s*token\s*=\s*[\'"].+[\'"]
+
+# Claves API
+(?i)api[_-]?key\s*=\s*[\'"].+[\'"]
+(?i)clave\_api\s*=\s*[\'"].+[\'"]
+(?i)api\s*=\s*[\'"].+[\'"]
+
+# Nombres de usuario
+(?i)username\s*=\s*[\'"].+[\'"]
+(?i)usuario\s*=\s*[\'"].+[\'"]
+(?i)user\s*=\s*[\'"].+[\'"]
+
+# Direcciones de correo electrónico
+[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
+(?i)correo\s*=\s*[\'"].+[\'"]
+
+# URLs
+https?://[^\s]+
+(?i)http:\/\/[^\s]+
+(?i)https:\/\/[^\s]+
